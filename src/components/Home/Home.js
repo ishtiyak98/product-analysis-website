@@ -4,7 +4,7 @@ import coverImg from "../../assets/cover_img.jpg";
 
 const Home = () => {
   return (
-    <div className="px-5 py-5">
+    <div className="container py-5">
       <div className="main-cover">
         <div className="row gy-4 d-flex align-items-center">
           <div className="col-lg-6">

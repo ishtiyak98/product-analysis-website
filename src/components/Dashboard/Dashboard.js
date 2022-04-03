@@ -44,7 +44,7 @@ const Dashboard = () => {
 
   return (
     <div className="container">
-      <h2 className="text-center">Our Statistics</h2>
+      <h2 className="text-center my-4">Our Statistics</h2>
       <div className="row">
         <div className="col-lg-6">
           <LineGraph data={data}></LineGraph>
