@@ -12,7 +12,7 @@ const LineGraph = ({ data }) => {
   return (
     <div className="d-flex justify-content-center">
       <div>
-        <h5 className="text-center text-primary py-2">Monthwise Sell :</h5>
+        <h5 className="text-center text-primary py-2">Month Wise Sell</h5>
         <LineChart width={400} height={280} data={data}>
           <Line dataKey={"sell"}></Line>
           <XAxis dataKey={"month"}></XAxis>
