@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "name": "Adam Finch",
+        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "ratings": 4.3
+    },
+    {
+        "id":2,
+        "name": "John Hawking",
+        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "ratings": 3.3
+    },
+    {
+        "id":3,
+        "name": "Lara Jones",
+        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "ratings": 5
+    },
+    {
+        "id":4,
+        "name": "Micheal Wellborn",
+        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "ratings": 4.8
+    },
+    {
+        "id":5,
+        "name": "Harry Potter",
+        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "ratings": 4.5
+    },
+    {
+        "id":6,
+        "name": "Luna McCarthy",
+        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "ratings": 4.7
+    }
+    
+]

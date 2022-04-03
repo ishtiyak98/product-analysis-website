@@ -1,11 +1,14 @@
 import React from "react";
 import "./Home.css";
 import coverImg from "../../assets/cover_img.jpg";
+import useReviews from "../../hooks/useReviews";
+import ReviewCard from "../ReviewCard/ReviewCard";
 
 const Home = () => {
+  const [reviews] = useReviews();
   return (
     <div className="container py-5">
-      <div className="main-cover">
+      <div className="main-cover mb-5">
         <div className="row gy-4 d-flex align-items-center">
           <div className="col-lg-6">
             <div>
@@ -25,6 +28,15 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div>
+        <h3 className="text-center mb-5">Customer Review (3)</h3>
+        <div className='row g-4'>
+                {
+                    reviews.map(review=> <ReviewCard key={review.id} review={review}></ReviewCard>).slice(0,3)
+                }
+            </div>
       </div>
     </div>
   );
