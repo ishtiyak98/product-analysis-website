@@ -2,38 +2,44 @@
     {
         "id":1,
         "name": "Adam Finch",
-        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "text": "I bought a Nvidia RTX 3060 from here and it's working great. Their customer support is really helpful",
         "ratings": 4.3
     },
     {
         "id":2,
         "name": "John Hawking",
-        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-        "ratings": 3.3
+        "image": "https://images.pexels.com/photos/3116381/pexels-photo-3116381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "text": "Their home delivery Service is great but need to improve customer communication.",
+        "ratings": 3.9
     },
     {
         "id":3,
         "name": "Lara Jones",
-        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "text": "I had a great experience with them. Their product service is great. They fixed my faulty GPU within a day",
         "ratings": 5
     },
     {
         "id":4,
         "name": "Micheal Wellborn",
-        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "image": "https://images.pexels.com/photos/3831645/pexels-photo-3831645.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "text": "Best product with best customer service. Their delivery system is really great.",
         "ratings": 4.8
     },
     {
         "id":5,
         "name": "Harry Potter",
-        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "text": "The product I bought from them is really working good and giving me a great gaming experience. Keep up the good work",
         "ratings": 4.5
     },
     {
         "id":6,
         "name": "Luna McCarthy",
-        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-        "ratings": 4.7
+        "image": "https://images.pexels.com/photos/1239288/pexels-photo-1239288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "text": "I bought a nvidia GTX 1050 from them for my graphic design work. The product is really good.",
+        "ratings": 4.9
     }
     
 ]

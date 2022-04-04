@@ -2,13 +2,16 @@ import React from "react";
 import "./ReviewCard.css";
 
 const ReviewCard = ({ review }) => {
-  const { name, text, ratings } = review;
+  const { name, text, ratings, image } = review;
   return (
     <div className="col-lg-4 ">
       <div className="p-3 card-design">
-        <h5 className="text-center">Name : {name}</h5>
-        <p className="text-center">{text}</p>
-        <p className="text-center">Ratings : {ratings}</p>
+        <div className="d-flex justify-content-center my-3">
+          <img className="img-fluid" src={image} alt="" />
+        </div>
+        <h4 className="text-center text-success">{name}</h4>
+        <p className="text-center review-text">{text}</p>
+        <p className="text-center fw-bold">Ratings : {ratings}</p>
       </div>
     </div>
   );
