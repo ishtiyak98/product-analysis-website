@@ -4,6 +4,7 @@ import {
   Line,
   XAxis,
   YAxis,
+  ResponsiveContainer,
   CartesianGrid,
   Tooltip,
   Legend,
@@ -13,14 +14,14 @@ const LineGraph = ({ data }) => {
     <div className="d-flex justify-content-center">
       <div>
         <h5 className="text-center text-primary py-2">Month Wise Sell</h5>
-        <LineChart width={400} height={280} data={data}>
-          <Line dataKey={"sell"}></Line>
-          <XAxis dataKey={"month"}></XAxis>
-          <YAxis></YAxis>
-          <Legend />
-          <CartesianGrid></CartesianGrid>
-          <Tooltip></Tooltip>
-        </LineChart>
+          <LineChart width={350} height={280} data={data}>
+            <Line dataKey={"sell"}></Line>
+            <XAxis dataKey={"month"}></XAxis>
+            <YAxis></YAxis>
+            <Legend />
+            <CartesianGrid></CartesianGrid>
+            <Tooltip></Tooltip>
+          </LineChart>
       </div>
     </div>
   );

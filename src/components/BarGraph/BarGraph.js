@@ -15,7 +15,7 @@ const BarGraph = ({ data }) => {
       <div className="">
         <h5 className="text-center text-primary py-2">Investment vs Revenue</h5>
         <BarChart
-          width={400}
+          width={350}
           height={280}
           data={data}
           margin={{
