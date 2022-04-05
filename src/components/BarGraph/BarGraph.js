@@ -13,7 +13,7 @@ const BarGraph = ({ data }) => {
   return (
     <div className="d-flex justify-content-center">
       <div className="">
-        <h5 className="text-center text-primary py-2 text-danger">Investment vs Revenue</h5>
+        <h5 className="text-center text-primary py-2 text-danger">Investment VS Revenue</h5>
         <BarChart
           width={350}
           height={280}

@@ -6,7 +6,7 @@ const PieGraph = ({ data }) => {
     <div className="d-flex justify-content-center">
       <div>
         <h5 className="text-center text-danger py-3">Investment VS Revenue</h5>
-        <PieChart width={730} height={250}>
+        <PieChart width={350} height={250}>
           <Pie
             data={data}
             dataKey="investment"
