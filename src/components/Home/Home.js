@@ -16,7 +16,7 @@ const Home = () => {
             <div>
               <h1 className="cover-title fw-bold">Your next GPU</h1>
               <h1 className="cover-title text-danger fw-bold">Your best GPU</h1>
-              <p>
+              <p className="fs-5 text-secondary py-2">
                 We have the best GPU products with strong customer community. Customer satisfaction is our First Priority. Buy our products and join the great community to get a best customer experience.
               </p>
               <div className="btn btn-danger">Live Demo</div>
@@ -32,7 +32,7 @@ const Home = () => {
 
       <div>
         <h2 className="text-center mb-5 text-success fw-bold">Customer Reviews ({reviews.slice(0,3).length})</h2>
-        <div className='row g-4'>
+        <div className='row gx-4 gy-5'>
             {
                 reviews.slice(0,3).map(review=> <ReviewCard key={review.id} review={review}></ReviewCard>)
             }
