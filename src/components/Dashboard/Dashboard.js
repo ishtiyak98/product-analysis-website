@@ -1,6 +1,8 @@
 import React from "react";
+import AreaGraph from "../AreaGraph/AreaGraph";
 import BarGraph from "../BarGraph/BarGraph";
 import LineGraph from "../LineGraph/LineGraph";
+import PieGraph from "../PieGraph/PieGraph";
 
 const Dashboard = () => {
   const data = [
@@ -43,14 +45,20 @@ const Dashboard = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="container mb-5">
       <h2 className="text-center mt-3 mb-5 text-success fw-bold">Our Statistics</h2>
-      <div className="row">
+      <div className="row gx-4 gy-5">
         <div className="col-lg-6">
           <LineGraph data={data}></LineGraph>
         </div>
         <div className="col-lg-6">
           <BarGraph data={data}></BarGraph>
+        </div>
+        <div className="col-lg-6">
+          <PieGraph data={data}></PieGraph>
+        </div>
+        <div className="col-lg-6">
+          <AreaGraph data={data}></AreaGraph>
         </div>
       </div>
     </div>

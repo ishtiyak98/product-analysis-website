@@ -38,7 +38,7 @@ const Home = () => {
             }
         </div>
         <div className="text-center my-4">
-          <button onClick={()=> navigate("/reviews")} className="btn btn-success ">See All Reviews</button>
+          <button onClick={()=> navigate("/reviews")} className="btn btn-success mt-3">See All Reviews</button>
         </div>
       </div>
     </div>
