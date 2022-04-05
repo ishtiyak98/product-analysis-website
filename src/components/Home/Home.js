@@ -14,6 +14,7 @@ const Home = () => {
         <div className="row gy-4 d-flex align-items-center main-cover-row">
           <div className="col-lg-6">
             <div>
+              <h1 className="main-title text-danger fw-bold">GPU REVIEW</h1>
               <h1 className="cover-title fw-bold">Your next GPU</h1>
               <h1 className="cover-title text-danger fw-bold">Your best GPU</h1>
               <p className="fs-5 text-secondary py-2">
