@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="container py-5">
       <div className="main-cover">
-        <div className="row gy-4 d-flex align-items-center">
+        <div className="row gy-4 d-flex align-items-center main-cover-row">
           <div className="col-lg-6">
             <div>
               <h1 className="cover-title fw-bold">Your next GPU</h1>
@@ -31,14 +31,14 @@ const Home = () => {
       </div>
 
       <div>
-        <h3 className="text-center mb-5">Customer Reviews (3)</h3>
+        <h2 className="text-center mb-5 text-success fw-bold">Customer Reviews ({reviews.slice(0,3).length})</h2>
         <div className='row g-4'>
             {
-                reviews.map(review=> <ReviewCard key={review.id} review={review}></ReviewCard>).slice(0,3)
+                reviews.slice(0,3).map(review=> <ReviewCard key={review.id} review={review}></ReviewCard>)
             }
         </div>
         <div className="text-center my-4">
-          <button onClick={()=> navigate("/reviews")} className="btn btn-primary">See All Reviews</button>
+          <button onClick={()=> navigate("/reviews")} className="btn btn-success ">See All Reviews</button>
         </div>
       </div>
     </div>

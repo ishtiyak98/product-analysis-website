@@ -3,8 +3,8 @@ import "./Blogs.css";
 
 const Blogs = () => {
   return (
-    <div className="container">
-      <h2 className="text-center text-success  mt-3 mb-5">My Blog Page</h2>
+    <div className="container pb-5">
+      <h2 className="text-center text-success fw-bold mt-3 mb-5">My Blog Page</h2>
 
       <div className="blog-card p-4 mb-5">
         <h4>What is Context-API?</h4>
